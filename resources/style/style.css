@@ -63,7 +63,7 @@ nav img {
     justify-content: flex-start;
     align-items: flex-start;
     height: 43.5rem;
-    background-image: url('./img/main/fly-best-prices.jpg');
+    background-image: url('resources/img/main/fly-best-prices.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
