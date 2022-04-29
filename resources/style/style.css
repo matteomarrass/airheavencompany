@@ -63,14 +63,14 @@ nav img {
     justify-content: flex-start;
     align-items: flex-start;
     height: 43.5rem;
-    background-image: url('../img/main/fly-best-prices.jpg');
+    background-image: url('img/main/fly-best-prices.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #description {
-    background-image: url('../img/main/discover-cultures(1).jpg');
+    background-image: url('img/main/discover-cultures(1).jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ option {
 
 /* Destination Section */
 #destination-section {
-    background-image: url('../img/main/planes.jpg');
+    background-image: url('img/main/planes.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,7 +275,7 @@ figcaption {
 
 /*Services section*/
 #services {
-    background-image: url('../img/our-services/plates.jpg');
+    background-image: url('img/our-services/plates.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ figcaption {
 
 /*Reviews*/
 .flex-container {
-    background-image: url('../img/our-destinations/taj-mahal.jpg');
+    background-image: url('img/our-destinations/taj-mahal.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
