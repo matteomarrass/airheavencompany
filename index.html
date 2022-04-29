@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/style/style.css">
+    <title>Welcome to AirHeaven!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&family=Radio+Canada:wght@400;500;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <img id="logo" src="resources/img/icons-footer/logo.png" alt="logo-flyheaven" title="Fly. Always at the best price.">
+        <ul class="icons-right">
+            <li><a href="#"><img src="resources/img/icons-footer/home(1).png" alt="home" title="Home"></a></li>
+            <li><a href="#"><img src="resources/img/icons-footer/dices.png" alt="random-flight" title="Let the dices make the game!"></a></li>
+            <li><a href="#"><img src="resources/img/icons-footer/comments.png" alt="contact-us" title="Contact us!"></a></li>
+        </ul>
+    </nav>
+    <!-- Main Section with images -->
+    <section id="first-section">
+    <!-- Subsection for Free Flight Booking  -->
+        <div id="description">
+            <h1>Welcome!</h1>
+            <p>Thank you for choosing us! <br> We will guarantee you the best experience <br>of your life!</p>
+            <form action="http://www.google.it">
+                <input type="submit" value="See our destinations!">
+            </form>
+            <p>Are you confident? Try our new random mode! <br>The world is in your hands!</p>
+            <form action="http://www.google.it">
+                <input type="submit" value="Try Random Flight! 🎲🌎">
+            </form>
+        </div>
+        <!-- Book a Flight -->
+        <div id="book">
+            <h1> Book a Flight! </h1>
+            <div id="return-or-not">
+                <p><input type="radio" name="type-flight">Return Trip</p>
+                <p><input type="radio" name="type-flight">One Way</p>
+            </div>
+            <div class="departure">
+                <label for="depart" id="depart">Depart</label>
+                <input type="date" id="depart-1" name="depart">
+                <label for="return" id="return">Return</label>
+                <input type="date" id="return-1" name="return">
+            </div>
+            <div class="destination" id="departures">
+                <label for="from" id="from">From</label>
+                <select name="from" id="from-1">
+                    <option value="alicante">Alicante 🇪🇸</option>
+                    <option value="bari">Bari 🇮🇹</option>
+                    <option value="berna">Berna 🇨🇭</option>
+                    <option value="cagliari">Cagliari 🇮🇹</option>
+                    <option value="chicago">Chicago 🇺🇸</option>
+                    <option value="dualchi">Dualchi 🇮🇹</option>
+                    <option value="kiev">Kiev 🇺🇦</option>
+                    <option value="medellin">Medellín 🇻🇪</option>
+                    <option value="mosca">Mosca 🇷🇺</option>
+                    <option value="mumbai">Mumbai 🇮🇳</option>
+                    <option value="roma">Roma 🇮🇹</option>
+                    <option value="pisa">Pisa 🇮🇹</option>
+                    <option value="sharm">Sharm el-Sheikh 🇪🇬</option>
+                </select>
+            </div>    
+            <div class="destination" id="arrival">
+                <label for="to" id="to-1">To</label>
+                <select name="to" id="to">
+                    <option value="alicante">Alicante 🇪🇸</option>
+                    <option value="bari">Bari 🇮🇹</option>
+                    <option value="berna">Berna 🇨🇭</option>
+                    <option value="cagliari">Cagliari 🇮🇹</option>
+                    <option value="chicago">Chicago 🇺🇸</option>
+                    <option value="dualchi">Dualchi 🇮🇹</option>
+                    <option value="kiev">Kiev 🇺🇦</option>
+                    <option value="medellin">Medellín 🇻🇪</option>
+                    <option value="mosca">Mosca 🇷🇺</option>
+                    <option value="mumbai">Mumbai 🇮🇳</option>
+                    <option value="roma">Roma 🇮🇹</option>
+                    <option value="pisa">Pisa 🇮🇹</option>
+                    <option value="sharm">Sharm el-Sheikh 🇪🇬</option>
+                </select>
+            </div>
+            <div class="pass" id="passengers">
+                <label for="pass" id="pass-1">Passengers</label>
+                <select name="pass" id="pass">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="11">⚽</option>
+                </select>
+            </div>
+            <div class="check" id="terms">
+                <p><input type="checkbox"> By clicking search you agree to the Website Terms of Use</p>
+            </div>
+            <div class="go">
+                <form action="http://www.google.it">
+                    <input type="submit" id="go" value="Let's go! ✈️">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Destination Section  -->
+    <section id="destination-section">
+        <h1>Destinations</h1>
+        <p id="descripion-destination">We're proud of the fact that your choosed us for you next trip! <br> Thanks to our collaboration with PincoPallinoPlanes we can offer the best planes that <br> can assure you the maximum security for all your family! <br> Here are some of our destinations:</p>
+    <!--Destination Grid-->
+        <div class="grid-container">
+            <div class="grid"><img src="resources/img/our-destinations/dubai.jpg" alt="dubai">
+                <figcaption>Dubai&nbsp;&nbsp;🇦🇪</figcaption>
+                <p>Indulgent, glamorous, and progressive.</p>
+                <p class="price">Starting at only 99$!</p>
+                <form action="http://www.google.it">
+                    <input type="submit" value="Let's go! 🧳🛫">
+                </form>
+            </div>
+            <div class="grid"><img src="resources/img/our-destinations/grande-mela.jpg" alt="new-york">
+                <figcaption>New York&nbsp;&nbsp;🇺🇸</figcaption>
+                <p>Diversity and dynamism.</p>
+                <p class="price">Starting at only 199$!</p>
+                <form action="http://www.google.it">
+                    <input type="submit" value="Let's go! 🧳🛫">
+                </form>
+            </div>
+            <div class="grid"><img src="resources/img/our-destinations/iceland.jpg" alt="iceland">
+                <figcaption>Reykjavik&nbsp;&nbsp;🇮🇸</figcaption>
+                <p>The Land of Ice and Fire.</p>
+                <p class="price">Starting at only 399$!</p>
+                <form action="http://www.google.it">
+                    <input type="submit" value="Let's go! 🧳🛫">
+                </form>
+            </div>
+            <div class="grid"><img src="resources/img/our-destinations/roma.jpg" alt="italy">
+                <figcaption>Rome&nbsp;&nbsp;🇮🇹</figcaption>
+                <p>Anything else to say?</p>
+                <p class="price">Starting at only 9$!</p>
+                <form action="http://www.google.it">
+                    <input type="submit" value="Let's go! 🧳🛫">
+                </form>
+            </div>
+            <div class="grid"><img src="resources/img/our-destinations/sharm el sheikh.jpg" alt="egypt">
+                <figcaption>Sharm el-Sheikh&nbsp;&nbsp;🇪🇬</figcaption>
+                <p>Excellent beaches, beautiful coral reefs, <br> and some of the best dive spots in the world.</p>
+                <p class="price">Starting at only 1$!</p>
+                <form action="http://www.google.it">
+                    <input type="submit" value="Let's go! 🧳🛫">
+                </form>
+            </div>
+            <div class="grid"><img src="resources/img/our-destinations/taj-mahal.jpg" alt="india">
+                <figcaption>India&nbsp;&nbsp;🇮🇳</figcaption>
+                <p>From cultures to natural beauty and <br> adventure activities to beautiful beaches.</p>
+                <p class="price">Starting at only 60$!</p>
+                <form action="http://www.google.it">
+                    <input type="submit" value="Let's go! 🧳🛫">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services">
+        <h1>Services</h1>
+        <p>Skilled operators bring you and your business quality services with quality assurance practices. <br> Certified operators and personnel are fully screened and trained prior to being deployed. <br> All of this because we care of the health of our clients, we want them to feel like home! &nbsp; 💖</p>
+        <div class="grid-container">
+            <div class="grid"><img src="resources/img/our-services/plates.jpg" alt="plates">
+                <figcaption>The best plates of the world!</figcaption>
+                <p>From Vietnamese Pho to the Sardinian Casu Marzu,<br> our couisine is full of rich plates from all over the world! <br> Did you know that the Fettuccine Alfredo is not a tipical Italian dish, but an Italian man called Alfredo di Lelio created them in Rome in 1908? Come with us, give it a try!</p>
+                <p class="price">Starting at only 9$!</p>
+            </div>
+            <div class="grid"><img src="resources/img/our-services/tv.jpg" alt="tv">
+                <figcaption>Films like a cinema? Only with us!</figcaption>
+                <p>Sometimes long trips can become a real nightmare! <br> Screaming childs, sleeping adults and 12 hour-straight trips can become very stressful!<br> Fortunately our multimedial systems can give you some peaceful relax, thanks to his Dolby Surround sound system and 7" display!<p>
+                <p class="price">FREE!</p>
+            </div>
+            <div class="grid"><img src="resources/img/our-services/dating.jpg" alt="dating">
+                <figcaption>Are you ready to marriage? &nbsp;💒 </figcaption>
+                <p>It's not a joke! That's a fact: last year we won the Guinness World Record for the highest number of marriage proposals happened into our planes! <br> Will you be the next? &nbsp;💖💒<p>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="flex">
+
+        <div class="flex-container">
+            <!-- Left part -->
+            <div id="left">
+                <h1>They spoke of us!</h1>
+                <p>Here we are! Are you ready to travel with us? <br>You don't want to see Arnold angry right? So book a flight now!</p>
+            </div>
+            <!-- Reviews -->
+            <div id="reviews">
+                <div class="grid-1"><img src="resources/img/testimonials/elon-musk.jpg" alt="plates">
+                    <figcaption>⭐⭐⭐⭐⭐</figcaption>
+                    <q>I just decided to change X Æ A-12's name into AirHeaven Musk in your honor! <br> We have many things to learn from you that can be implemented in Space-X!</q>
+                    <p class="price">Elon Musk</p>
+                </div>
+                <div class="grid-1"><img src="resources/img/testimonials/barack-obama.jpg" alt="plates">
+                    <figcaption>⭐⭐⭐⭐⭐</figcaption>
+                    <q>Yes, AirHeaven can!</q>
+                    <p class="price">Barack Obama</p>
+                </div>
+                <div class="grid-1"><img src="resources/img/testimonials/arnold.jpg" alt="plates">
+                    <figcaption>⭐⭐⭐⭐⭐</figcaption>
+                    <q>Finally a flight company that allows me to transport my home gym and my Hummer for my next movie!! </q>
+                    <p class="price">Arnold Schwarzenegger</p>
+                </div>
+            <!--Book a Flight-->
+            <div id="book2">
+                <h1> Book a Flight! </h1>
+                <div id="return-or-not">
+                    <p><input type="radio" name="type-flight">Return Trip</p>
+                    <p><input type="radio" name="type-flight">One Way</p>
+                </div>
+                <div class="departure">
+                    <label for="depart" id="depart">Depart</label>
+                    <input type="date" id="depart-1" name="depart">
+                    <label for="return" id="return">Return</label>
+                    <input type="date" id="return-1" name="return">
+                </div>
+                <div class="destination" id="departures">
+                    <label for="from" id="from">From</label>
+                    <select name="from" id="from-1">
+                        <option value="alicante">Alicante 🇪🇸</option>
+                        <option value="bari">Bari 🇮🇹</option>
+                        <option value="berna">Berna 🇨🇭</option>
+                        <option value="cagliari">Cagliari 🇮🇹</option>
+                        <option value="chicago">Chicago 🇺🇸</option>
+                        <option value="dualchi">Dualchi 🇮🇹</option>
+                        <option value="kiev">Kiev 🇺🇦</option>
+                        <option value="medellin">Medellín 🇻🇪</option>
+                        <option value="mosca">Mosca 🇷🇺</option>
+                        <option value="mumbai">Mumbai 🇮🇳</option>
+                        <option value="roma">Roma 🇮🇹</option>
+                        <option value="pisa">Pisa 🇮🇹</option>
+                        <option value="sharm">Sharm el-Sheikh 🇪🇬</option>
+                    </select>
+                </div>    
+                <div class="destination" id="arrival">
+                    <label for="to" id="to-1">To</label>
+                    <select name="to" id="to">
+                        <option value="alicante">Alicante 🇪🇸</option>
+                        <option value="bari">Bari 🇮🇹</option>
+                        <option value="berna">Berna 🇨🇭</option>
+                        <option value="cagliari">Cagliari 🇮🇹</option>
+                        <option value="chicago">Chicago 🇺🇸</option>
+                        <option value="dualchi">Dualchi 🇮🇹</option>
+                        <option value="kiev">Kiev 🇺🇦</option>
+                        <option value="medellin">Medellín 🇻🇪</option>
+                        <option value="mosca">Mosca 🇷🇺</option>
+                        <option value="mumbai">Mumbai 🇮🇳</option>
+                        <option value="roma">Roma 🇮🇹</option>
+                        <option value="pisa">Pisa 🇮🇹</option>
+                        <option value="sharm">Sharm el-Sheikh 🇪🇬</option>
+                    </select>
+                </div>
+                <div class="pass" id="passengers">
+                    <label for="pass" id="pass-1">Passengers</label>
+                    <select name="pass" id="pass">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="11">⚽</option>
+                    </select>
+                </div>
+                <div class="check" id="terms">
+                    <p><input type="checkbox"> By clicking search you agree to the Website Terms of Use</p>
+                </div>
+                <div class="go">
+                    <form action="http://www.google.it">
+                        <input type="submit" id="go" value="Let's go! ✈️">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <ul class="icons-right">
+            <li><a href="#"><img src="resources/img/icons-footer/help.png" alt="home" title="Work with us"></a></li>
+            <li><a href="#"><img src="resources/img/icons-footer/work-with-us.png" alt="random-flight" title="Technical Support"></a></li>
+            <li><a href="#"><img src="resources/img/icons-footer/telephone.png" alt="contact-us" title="Contact us!"></a></li>
+        </ul>
+        <h1>Made with 🤍 by Matteo Marras</h1>
+    </footer>
+</body>
+</html>
