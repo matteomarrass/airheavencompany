@@ -70,7 +70,7 @@ nav img {
 }
 
 #description {
-    background-image: url('https://github.com/matteomarrass/airheavencompany/blob/main/resources/img/main/discover-cultures(1).jpg');
+    background-image: url('resources/img/main/discover-cultures(1).jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ option {
 
 /* Destination Section */
 #destination-section {
-    background-image: url('./img/main/planes.jpg');
+    background-image: url('resources/img/main/planes.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,7 +275,7 @@ figcaption {
 
 /*Services section*/
 #services {
-    background-image: url('./img/our-services/plates.jpg');
+    background-image: url('resources/img/our-services/plates.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ figcaption {
 
 /*Reviews*/
 .flex-container {
-    background-image: url('./img/our-destinations/taj-mahal.jpg');
+    background-image: url('resources/img/our-destinations/taj-mahal.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
